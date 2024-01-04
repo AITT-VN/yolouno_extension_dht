@@ -1,3 +1,37 @@
+Blockly.Blocks["uno_dhtxx_measure"] = {
+  init: function () {
+    this.jsonInit({
+      colour: "#d400d4",
+      tooltip: "",
+      message0: "cập nhật cảm biến %1 chân %2",
+      args0: [
+        {
+          type: "field_dropdown",
+          name: "TYPE",
+          options: [
+            [
+              "DHT11",
+              "DHT11"
+            ],
+            [
+              "DHT22",
+              "DHT22"
+            ]
+          ],
+        },
+        {
+          type: "field_dropdown",
+          name: "PIN",
+          options: digitalPins,
+        },
+      ],
+      previousStatement: null,
+      nextStatement: null,
+      helpUrl: "",
+    });
+  },
+};
+
 Blockly.Python["uno_dhtxx_measure"] = function (block) {
   var type = block.getFieldValue('TYPE');
   var pin = block.getFieldValue('PIN');

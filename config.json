@@ -2,7 +2,6 @@
     "name": "DHTxx",
     "description": "Thư viện cho các cảm biến nhiệt độ DHT11/DHT22",
     "libs": [
-        ""
     ],
     "blocks": [
         "definition.js"
