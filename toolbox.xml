@@ -1,0 +1,7 @@
+<xml xmlns="https://developers.google.com/blockly/xml" id="toolbox" style="display: none">
+  <category id="DHTxx" name="DHTxx" colour="#d400d4" icon="temperature-high">
+    <block type="uno_dhtxx_measure"></block>
+    <block type="uno_dhtxx_temp"></block>
+    <block type="uno_dhtxx_humid"></block>
+  </category>
+</xml>
